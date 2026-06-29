@@ -526,4 +526,94 @@ MVP is successful when:
 - Clinic can track status
 - Invoice is generated
 
-No other feature is required for MVP success.
+---
+
+## 13. Product Catalog Engine
+
+OmidMed Platform must not be designed only for clinic hygiene packs.
+
+The platform must support all current and future physiotherapy products.
+
+Examples:
+
+- Hygiene packs
+- Physiotherapy pads
+- Disposable sheets
+- Spunbond bags
+- Gel
+- Cables
+- Electrodes
+- Needles
+- Mechanotherapy consumables
+- Devices
+- Other physiotherapy supplies
+
+### Product Structure
+
+Every product can have:
+
+- Category
+- Brand
+- Model
+- Variant
+- Size
+- Color
+- Material
+- Unit
+- Minimum order quantity
+- Base price
+- Images
+- Stock status
+- Active/inactive status
+- Custom options
+- Attachments
+- Notes
+
+### Example: Spunbond Bag
+
+Category: Bag  
+Material: Spunbond  
+Size: 30×40  
+Handle Type:
+- Punch handle
+- Handle bag
+- D-cut handle
+
+Color:
+- Black
+- Navy
+- Burgundy
+- Coffee
+- Cream
+- White
+- Custom colors
+
+Printing:
+- No print
+- One-color silk print
+- Two-color print
+- Logo print
+
+### Example: Physiotherapy Pad
+
+Category: Pad  
+Variant:
+- Spanish pad
+- Chinese pad
+- French pad
+
+Size:
+- 6×8
+- Other sizes
+
+Options:
+- Single-side leather
+- Double-side leather
+
+### Important Rule
+
+The system must support adding new products without changing the core code.
+
+Admins should be able to add new categories, products, variants, colors, and options from the admin panel.
+
+The product catalog must be flexible enough to support at least 3000 products in the future.
